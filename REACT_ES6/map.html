@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter </title>
+</head>
+<body>
+    <h1> filter</h1>
+    <script>
+        const atlitBuluTangkis = [
+            {nama: "Tai Tzu Ying", negara:"Taiwan", tangan:"kanan", rangking:1},
+            {nama: "Chen Yu Fei", negara:"Tiongkok", tangan:"kanan", rangking:2},
+            {nama: "Carolina Marin", negara:"Spanyol", tangan:"kiri", rangking:3},
+            {nama: "nozomi OKUHARA", negara:"Jepang", tangan:"kanan", rangking:4},
+            {nama: "akane yamaguchi", negara:"Jepang", tangan:"kanan", rangking:5},
+            {nama: "ratchanok intanon", negara:"Thailand", tangan:"kanan", rangking:6},
+            {nama: "PUSARLA V. Shindhu", negara:"india", tangan:"kanan", rangking:7},
+            {nama: "aan ae yong", negara:"korea", tangan:"kanan", rangking:8},
+            {nama: "an bing jing", negara:"tiongkok", tangan:"kiri", rangking:9},
+            {nama: "akane yamaguchi", negara:"kanada", tangan:"kanan", rangking:10},
+        ];
+        const testMap = atlitBuluTangkis.map(atlit => `${atlit.nama}[${atlit.negara} - ${atlit.rangking}]`);
+        console.log(testMap);
+    </script>
+    
+</body>
+</html>
